@@ -56,7 +56,7 @@ This Django project is designed to ingest log data and provide a full-text searc
 
 7. **Running the Application**
    ```
-   python manage.py runserver 3000
+   python manage.py runserver 
    ```
 
 8. **Running Celery Worker**
@@ -67,7 +67,7 @@ This Django project is designed to ingest log data and provide a full-text searc
 ## Usage
 
 1. **Accessing the Application**
-   - Open a web browser and navigate to `http://localhost:3000/`.
+   - Open a web browser and navigate to `http://localhost:8000/`.
 
 2. **Log Ingestion**
    - Use the provided endpoints to ingest log data into the system.
