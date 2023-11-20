@@ -88,27 +88,3 @@ Contributions to this project are welcome. Please follow the standard procedures
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-
-### Updating the `urls.py` File
-
-After setting up the project and its dependencies, ensure you update the `urls.py` file to include the necessary URL patterns for the new features. Here's how you can do it:
-
-1. **Locate the `urls.py` File**: Find the `urls.py` file in your project's main application directory.
-
-2. **Edit the File**: Open the `urls.py` file in your code editor.
-
-3. **Add the URL Pattern**: Add a new URL pattern for the feature you're implementing. For example, if you are adding a search functionality, you might add something like:
-   ```python
-   from django.urls import path
-   from . import views
-
-   urlpatterns = [
-       # Existing URL patterns
-       path('search/', views.search_view, name='search_view'),
-       # Add other URL patterns as needed
-   ]
-   ```
-
-4. **Save the Changes**: After adding the necessary URL patterns, save the file.
-
-5. **Restart the Server**: If your Django development server is running, restart it to apply the changes.
